@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Chiller;
+    src: url(../fonts/Chiller.ttf) /* TTF file for CSS3 browsers */
+}
+
+
+
+
+body {
+    height: auto;
+    width: auto;
+    background: #3e2840;}
+h3 {
+    font-family: Chiller;
+    font-size: 3em;
+    text-align: center;
+    color: aliceblue;
+}
+div {
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    position: fixed;
+    top: 50px;
+    left: 560px;
+    margin-right: 500px;
+}
+
+input{
+    width: 200px;
+    height: 2em;
+    outline: none;
+    font-size: 2em;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Chiller;
+}
+.img{
+    float: left;
+    height: 650px;
+    margin-left: 50px;
+    position: fixed;
+}
+button {
+    float: right;
+    border-radius: 15px;
+    outline: none;
+    font-family: Chiller;
+    font-size: 2em;
+}
+h4 {
+    font-family: Chiller;
+    font-size: 2em;
+    text-align: center;
+    color: red;
+}
+A {
+    font-family: Chiller;
+    font-size: 2.3em;
+    text-align: center;
+    text-decoration: none;
+}
+A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: red; /* Цвет ссылки */
+}
