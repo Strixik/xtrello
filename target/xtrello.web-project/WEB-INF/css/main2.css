@@ -10,25 +10,42 @@ body {
     height: auto;
     width: auto;
     background: #3e2840;}
+h1{
+    font-family: Chiller;
+    font-size: 10em;
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    letter-spacing: 100px;
+
+
+}
 h3 {
     font-family: Chiller;
     font-size: 3em;
     text-align: center;
-    color: aliceblue;
+    color: gray;
+    margin-bottom: 10px;
 }
 div {
-    width: 200px;
-    height: 100px;
-    padding: 50px;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    overflow: auto;
+}
+.position{
+    width: 220px;
+    height: 350px;
     position: fixed;
-    top: 50px;
-    left: 560px;
-    margin-right: 500px;
+    top: 30%;
+    left: 40%;
 }
 
 input{
     width: 200px;
-    height: 2em;
+    height: 1em;
     outline: none;
     font-size: 2em;
     margin-bottom: 10px;
@@ -36,19 +53,26 @@ input{
     border-radius: 15px;
     text-align: center;
     font-family: Chiller;
+    color: white;
+    background-color:#3e2840;
 }
 .img{
-    float: left;
-    height: 650px;
-    margin-left: 50px;
-    position: fixed;
+    width: 80%;
+    margin-left: 10%;
 }
 button {
     float: right;
-    border-radius: 15px;
     outline: none;
     font-family: Chiller;
     font-size: 2em;
+    color: black;
+    background-color:#3e2840;
+    border: 2px solid grey;
+    border-radius: 15px;
+    border-bottom-style: hidden;
+    padding: 0;
+    margin-left: 10px;
+
 }
 h4 {
     font-family: Chiller;
@@ -58,11 +82,30 @@ h4 {
 }
 A {
     font-family: Chiller;
-    font-size: 2.3em;
+    font-size: 2em;
     text-align: center;
     text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 15px;
+    border-bottom-style: hidden;
+    margin-left: 0;
+    color: black;
+    background-color: #3e2840;
+
 }
 A:hover {
-    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
-    color: red; /* Цвет ссылки */
+    color: white;
+    background-color: black;
+    transition: 1.5s;
 }
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 1.5s;
+}
+input:focus {
+    color: white;
+    background-color: black;
+
+}
+

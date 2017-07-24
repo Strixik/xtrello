@@ -1,5 +1,6 @@
 
 package lms.servlets;
+import lms.models.Sticker;
 import lms.models.User;
 import lms.view.PageParts;
 
@@ -12,18 +13,19 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 
 
-@WebServlet(name = "Start", urlPatterns = {"/"})
+@WebServlet(name = "First", urlPatterns = {"/*"})
+
 public class Servlet extends HttpServlet {
+
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws
             ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
-        response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        out.println(PageParts.getPageIndexTop());
-
         String userlogin = new String(request.getParameter("Login").getBytes("iso-8859-1"), "UTF-8");
         String userpassword = new String(request.getParameter("Password").getBytes("iso-8859-1"), "UTF-8");
         User user = new User();
@@ -32,26 +34,61 @@ public class Servlet extends HttpServlet {
         if(user.checkLogin()) {
             HttpSession session = request.getSession();
             session.setAttribute("login", user.getLogin());
-            // save data in session
             session.setAttribute("id", user.getId());
-            response.sendRedirect("/ServletBoards");
+            System.out.println("Все добре ви зайшли" + session.getAttribute("login"));
+            doGet(request, response);
             } else {
-           out.println(PageParts.postEnterFaild());
+            out.write(PageParts.getTag("h3","Login    or    Password wrong!",""));
+            out.write(PageParts.getTag("a","Back","href=\"/\""));
         }
+
         }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws
             ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        try {
+        HttpSession session = request.getSession();
+        session.getAttribute("login");
+        session.getAttribute("id");
+        System.out.println(request.getPathInfo());
 
-            out.println(PageParts.getPageTop());
-            out.println(PageParts.getEnter());
-            out.println(PageParts.getPageBottom());
+        switch (request.getPathInfo()) {
+            case "/":
+                if (session.getAttribute("id") != null) {
+                    out.print(session.getAttribute("login"));
+                    response.sendRedirect("/Board");
 
-        } finally {
-            out.close();
+                } else {
+                    out.println(PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/formlogin.html")));
+                    break;
+                }
+                break;
+            case "/registration":
+                out.println(PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/formregistration.html")));
+                break;
+            case "/exit":
+                session.removeAttribute("login");
+                session.removeAttribute("id");
+                response.sendRedirect("/");
+                break;
+            case "/Board":
+
+                for (String x : PageParts.DelDubl(Sticker.getStickername(Integer.parseInt(session.getAttribute("id").toString())))){
+                    String form1 = PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/sticker.html"));
+                    form1 = form1.replace("<!-- servletInsert05 -->",x);
+                    form1 = form1.replace("<!-- servletInsert06 -->",x);
+                    StringBuilder stringBuilder = new StringBuilder();
+                    for (String y : Sticker.getNote(Integer.parseInt(session.getAttribute("id").toString()),x)){
+                        if (y == null){
+                            continue;
+                        } else stringBuilder.append(PageParts.getTag("p",y,""));
+                    }
+                    form1 = form1.replace("<!-- servletInsert07 -->",stringBuilder);
+                    out.write(form1);
+                }
+                break;
         }
     }
+
 }

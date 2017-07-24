@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 public class Sticker extends ConnectToDB {
 private String sticker_name;
-private String[] note;
+private String note;
 
     public String getSticker_name() {
         return sticker_name;
@@ -21,26 +21,32 @@ private String[] note;
         this.sticker_name = sticker_name;
     }
 
-    public String[] getNote() {
+    public String getNote() {
         return note;
     }
 
-    public void setNote(String[] note) {
+    public void setNote(String note) {
         this.note = note;
     }
 
-    public void insertNote(int id){
-        StringBuilder strb = new StringBuilder();
-        for (String s:note){
-            strb.append(s).append('\n');
-        }
+    public void insertNote(int id, String stickerName, String text){
+
+        String sql = "INSERT INTO notes(note,user_id,sticker_name) VALUES(?,?,?)";
+
         try (Connection con = DriverManager.getConnection(DB_URL);
-            Statement stmt = con.createStatement();){
-            stmt.executeUpdate("INSERT INTO notes (note, user_id) VALUE(\"" + strb + "\"," + id +")");
-        } catch (SQLException e) {
-            e.printStackTrace();
+             PreparedStatement pstmt = con.prepareStatement(sql)) {
+
+            pstmt.setString(1, text);
+            pstmt.setInt(2, id);
+            pstmt.setString(3, stickerName);
+            pstmt.executeUpdate();
+                    } catch (SQLException e) {
+            System.out.println(e.getMessage());
         }
     }
+
+
+
     public void insertStiker_name(int id, String stickerName) {
             try (Connection con = DriverManager.getConnection(DB_URL);
                  Statement stmt = con.createStatement();) {
@@ -52,14 +58,14 @@ private String[] note;
     }
 
 
-    public static ArrayList<String> getNote(int id) {
+    public static ArrayList<String> getNote(Integer id, String sticker_name) {
         ArrayList<String> note = new ArrayList<>();
 
         try (Connection con = DriverManager.getConnection(DB_URL);
              Statement stmt = con.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT notes FROM note WHERE user_id=\"" + id + "\";");) {
+             ResultSet rs = stmt.executeQuery("SELECT note FROM notes WHERE user_id=\"" + id + "\" AND sticker_name=\"" + sticker_name + "\";");) {
             while (rs.next()) {
-                note.add(rs.getString(2));
+                note.add(rs.getString(1));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -88,7 +94,7 @@ private String[] note;
     public String toString() {
         return "Sticker{" +
                 "sticker_name='" + sticker_name + '\'' +
-                ", note=" + Arrays.toString(note) +
+                ", note='" + note + '\'' +
                 '}';
     }
 
