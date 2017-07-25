@@ -24,6 +24,7 @@ input{
     margin-left: 10px;
 
 }
+
 h3 {
     font-family: Chiller;
     font-size: 4em;
@@ -37,7 +38,7 @@ header{
 .telo {
     width: 100%;
     float: left;
-    height: auto;
+
 }
 div {
     float: left;
@@ -46,9 +47,14 @@ div {
 
 
 }
-form {
+form.form {
     float: left;
 }
+form.form1 {
+    float: right;
+}
+
+
 h2  {
     font-family: Chiller;
     font-size: 3em;
@@ -72,7 +78,8 @@ textarea {
     float: left;
     background-color: #333333;
     border-radius: 20px;
-    border: 2px dotted grey;
+    border: 2px solid grey;
+    border-bottom-style: hidden;
     margin-bottom: 20px;
     width: 200px;
 
@@ -110,7 +117,7 @@ h4 {
     text-align: center;
     color: red;
 }
-A {
+A.exit {
     position: fixed;
     top: 0px;
     right: 0px;
@@ -124,9 +131,27 @@ A {
     background-color: black;
 
 }
-A:hover {
+button{
+    float: right;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border-bottom-style: hidden;
+    color: white;
+    background-color: #333333;
+    margin: 5px;
+}
+
+
+A.exit:hover {
     color: red; /* Цвет ссылки */
     background-color: black;
+    transition: 1.5s;
+}
+button:hover {
+    background-color: black;
+    color: red; /* Цвет ссылки */
     transition: 1.5s;
 }
 input:hover {

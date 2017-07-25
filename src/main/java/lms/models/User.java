@@ -20,6 +20,10 @@ public class User extends ConnectToDB {
     }
     public User(){}
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getLogin() {
         return login;
     }

@@ -34,7 +34,7 @@ public class PageFilterLogin implements Filter {
 
             String css1 ="<link rel=\"stylesheet\" href=\"../css/main1.css\" type=\"text/css\">";
             String img = "<img class=\"img1\" src=\"../img/boardS.jpg\" alt=\"\">";
-            String form = " <form action=\"/Boards\" method=\"post\">\n" +
+            String form = " <form action=\"/sticker\" method=\"post\">\n" +
                     "        <input type=\"submit\"  name =\"\" placeholder=\"\" value=\"Enter\" >\n" +
                     "        <input type=\"text\" alt=\"stickerName\" title=\"stickerName\" name =\"stickerName\" placeholder=\"Sticker name\" >\n" +
                     "    </form>";
