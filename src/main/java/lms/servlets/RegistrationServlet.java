@@ -14,7 +14,7 @@ import java.io.PrintWriter;
 
 
 @WebServlet(name = "Second", urlPatterns = {"/reg"})
-public class Servlet2 extends HttpServlet {
+public class RegistrationServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws
             ServletException, IOException {
@@ -23,10 +23,9 @@ public class Servlet2 extends HttpServlet {
         String ulogin = new String(request.getParameter("newLogin").getBytes("iso-8859-1"), "UTF-8");
         String upassword = new String(request.getParameter("newPassword").getBytes("iso-8859-1"), "UTF-8");
         String uemail = new String(request.getParameter("newEmail").getBytes("iso-8859-1"), "UTF-8");
-        User user = new User();
-        user.setLogin(ulogin);
-        user.setPassword(upassword);
-        user.setEmail(uemail);
+
+        User user = new User(ulogin,upassword,uemail);
+
         if (user.findByLogin(ulogin)){
 
             out.write(PageParts.getTag("h3","This login is busy!",""));

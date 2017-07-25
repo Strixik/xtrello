@@ -5,6 +5,8 @@ import lms.view.PageParts;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
 
 /**
  * Created by Надя on 18.07.2017.
@@ -87,8 +89,10 @@ private String note;
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        ArrayList<String> result = new ArrayList<>(new HashSet<>(note));
+        Collections.sort(note);
 
-        return note;
+        return result;
     }
 
     @Override

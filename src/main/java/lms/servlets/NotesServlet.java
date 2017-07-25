@@ -12,10 +12,11 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import static lms.servlets.ServletBoards.sticker;
+
+import static lms.servlets.StickersServlet.sticker;
 
 @WebServlet(name = "Servlet3", urlPatterns = {"/note"})
-        public class Servlet3 extends HttpServlet {
+        public class NotesServlet extends HttpServlet {
             protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
                 PrintWriter out = response.getWriter();
                 HttpSession session = request.getSession();

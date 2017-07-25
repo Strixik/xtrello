@@ -40,10 +40,6 @@ public class User extends ConnectToDB {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public int getId() {
         return id;
     }
@@ -52,28 +48,12 @@ public class User extends ConnectToDB {
         this.id = id;
     }
 
-    public String getLoginUsername() {
-        return loginUsername;
-    }
-
     public void setLoginUsername(String loginUsername) {
         this.loginUsername = loginUsername;
     }
 
-    public String getLoginPassword() {
-        return loginPassword;
-    }
-
     public void setLoginPassword(String loginPassword) {
         this.loginPassword = loginPassword;
-    }
-
-    public String getLoginemail() {
-        return loginemail;
-    }
-
-    public void setLoginemail(String loginemail) {
-        this.loginemail = loginemail;
     }
 
     public boolean findByLogin(String login) {

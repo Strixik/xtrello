@@ -20,7 +20,7 @@ import java.util.HashSet;
 
 @WebServlet(name = "First", urlPatterns = {"/*"})
 
-public class Servlet extends HttpServlet {
+public class StartServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response) throws
@@ -51,17 +51,15 @@ public class Servlet extends HttpServlet {
         HttpSession session = request.getSession();
         session.getAttribute("login");
         session.getAttribute("id");
-        System.out.println(request.getPathInfo());
 
         switch (request.getPathInfo()) {
             case "/":
                 if (session.getAttribute("id") != null) {
-                    out.print(session.getAttribute("login"));
+                    //out.print(session.getAttribute("login"));
                     response.sendRedirect("/Board");
 
                 } else {
                     out.println(PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/formlogin.html")));
-                    break;
                 }
                 break;
             case "/registration":

@@ -17,7 +17,7 @@ import java.util.Collections;
 import java.util.HashSet;
 
 @WebServlet(name = "Third", urlPatterns = {"/Boards"})
-public class ServletBoards extends HttpServlet {
+public class StickersServlet extends HttpServlet {
    static Sticker sticker = new Sticker();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
