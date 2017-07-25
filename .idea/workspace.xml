@@ -7,46 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c414fb2e-742f-4c38-84da-cbde27f61cb1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/1df640c5-70fd-4cec-a522-1bd482b66703.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/lms/servlets/RegistrationServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lms/servlets/NotesServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lms/servlets/RegistrationServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/lms/servlets/StickersServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/NotesServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/RegistrationServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/StickersServlet.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lms/models/ConnectToDB.class" afterPath="$PROJECT_DIR$/target/classes/lms/models/ConnectToDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lms/models/Sticker.class" afterPath="$PROJECT_DIR$/target/classes/lms/models/Sticker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lms/models/User.class" afterPath="$PROJECT_DIR$/target/classes/lms/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lms/servlets/PageFilterLogin.class" afterPath="$PROJECT_DIR$/target/classes/lms/servlets/PageFilterLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lms/servlets/StartServlet.class" afterPath="$PROJECT_DIR$/target/classes/lms/servlets/StartServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/lms/view/PageParts.class" afterPath="$PROJECT_DIR$/target/classes/lms/view/PageParts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/models/ConnectToDB.class" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/models/ConnectToDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/models/Sticker.class" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/models/Sticker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/models/User.class" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/models/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/PageFilterLogin.class" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/PageFilterLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/StartServlet.class" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/servlets/StartServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/view/PageParts.class" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/lms/view/PageParts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lms/models/Sticker.java" afterPath="$PROJECT_DIR$/src/main/java/lms/models/Sticker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lms/models/User.java" afterPath="$PROJECT_DIR$/src/main/java/lms/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lms/servlets/PageFilterLogin.java" afterPath="$PROJECT_DIR$/src/main/java/lms/servlets/PageFilterLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lms/servlets/StartServlet.java" afterPath="$PROJECT_DIR$/src/main/java/lms/servlets/StartServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test.sql" afterPath="$PROJECT_DIR$/src/main/resources/test.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/main1.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/main1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/formregistration.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/formregistration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/sticker.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/sticker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/test.sql" afterPath="$PROJECT_DIR$/target/classes/test.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/test.sql" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/classes/test.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/css/main1.css" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/css/main1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/html/formregistration.html" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/html/formregistration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/html/sticker.html" afterPath="$PROJECT_DIR$/target/xtrello.web-project/WEB-INF/html/sticker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xtrello.web-project.iml" afterPath="$PROJECT_DIR$/xtrello.web-project.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +55,7 @@
       <file leaf-file-name="StartServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StartServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="0">
               <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
@@ -104,7 +65,7 @@
       <file leaf-file-name="PageFilterLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/PageFilterLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="714">
               <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
@@ -127,26 +88,16 @@
             <state relative-caret-position="816">
               <caret line="62" column="128" lean-forward="false" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
               <folding>
-                <marker date="1501015665079" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
-                <marker date="1501015665079" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
-                <marker date="1501015665079" expanded="true" signature="1789:1813" ph="DELETE FROM " />
-                <marker date="1501015665079" expanded="true" signature="1789:1828" ph="DELETE FROM " />
-                <marker date="1501015665079" expanded="true" signature="1789:1855" ph="DELETE FROM " />
-                <marker date="1501015665079" expanded="true" signature="1789:1878" ph="DELETE FROM " />
-                <marker date="1501015665079" expanded="true" signature="1789:1879" ph="DELETE FROM " />
-                <marker date="1501015665079" expanded="true" signature="2308:2401" ph="SELECT note notes" />
-                <marker date="1501015665079" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
+                <marker date="1501020540775" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
+                <marker date="1501020540775" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
+                <marker date="1501020540775" expanded="true" signature="1789:1813" ph="DELETE FROM " />
+                <marker date="1501020540775" expanded="true" signature="1789:1828" ph="DELETE FROM " />
+                <marker date="1501020540775" expanded="true" signature="1789:1855" ph="DELETE FROM " />
+                <marker date="1501020540775" expanded="true" signature="1789:1878" ph="DELETE FROM " />
+                <marker date="1501020540775" expanded="true" signature="1789:1879" ph="DELETE FROM " />
+                <marker date="1501020540775" expanded="true" signature="2308:2401" ph="SELECT note notes" />
+                <marker date="1501020540775" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="46" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +107,16 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageParts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lms/view/PageParts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,12 +134,12 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lms/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
+            <state relative-caret-position="323">
               <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="e#557#558#0" expanded="true" />
-                <marker date="1501001132690" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
-                <marker date="1501001132690" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
+                <marker date="1501020540776" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
+                <marker date="1501020540776" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
               </folding>
             </state>
           </provider>
@@ -267,9 +228,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,7 +335,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -593,45 +554,46 @@
       <workItem from="1500993048973" duration="13617000" />
       <workItem from="1501011040508" duration="191000" />
       <workItem from="1501011908221" duration="3679000" />
+      <workItem from="1501020811643" duration="279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22067000" />
+    <option name="totallyTimeSpent" value="22346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662192" sideWeight="0.502445" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662192" sideWeight="0.502445" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662192" sideWeight="0.49755502" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2555012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25855747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -648,6 +610,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="das://table:/163badbf/d3da4603-a04a-4aa2-bf17-9fdc8523f53a/mydb.notes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/sticker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <marker date="1501020540776" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
+            <marker date="1501020540776" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/models/Sticker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="128" lean-forward="false" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
+          <folding>
+            <marker date="1501020540775" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1789:1813" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1828" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1855" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1878" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1879" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="2308:2401" ph="SELECT note notes" />
+            <marker date="1501020540775" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StartServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -669,15 +676,15 @@
         <state relative-caret-position="1071">
           <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding>
-            <marker date="1501015665079" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1789:1813" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1828" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1855" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1878" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1879" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="2308:2401" ph="SELECT note notes" />
-            <marker date="1501015665079" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
+            <marker date="1501020540775" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1789:1813" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1828" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1855" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1878" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1879" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="2308:2401" ph="SELECT note notes" />
+            <marker date="1501020540775" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
           </folding>
         </state>
       </provider>
@@ -704,28 +711,14 @@
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="e#557#558#0" expanded="true" />
-            <marker date="1501001132690" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
-            <marker date="1501001132690" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
+            <marker date="1501020540776" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
+            <marker date="1501020540776" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lms/view/PageParts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -738,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,15 +755,15 @@
         <state relative-caret-position="1071">
           <caret line="63" column="55" lean-forward="false" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding>
-            <marker date="1501015665079" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1789:1813" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1828" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1855" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1878" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1879" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="2308:2401" ph="SELECT note notes" />
-            <marker date="1501015665079" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
+            <marker date="1501020540775" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1789:1813" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1828" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1855" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1878" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1879" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="2308:2401" ph="SELECT note notes" />
+            <marker date="1501020540775" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
           </folding>
         </state>
       </provider>
@@ -790,28 +782,14 @@
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="e#557#558#0" expanded="true" />
-            <marker date="1501001132690" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
-            <marker date="1501001132690" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
+            <marker date="1501020540776" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
+            <marker date="1501020540776" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lms/view/PageParts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -841,15 +819,15 @@
         <state relative-caret-position="1598">
           <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
           <folding>
-            <marker date="1501015665079" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1789:1813" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1828" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1855" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1878" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1879" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="2308:2401" ph="SELECT note notes" />
-            <marker date="1501015665079" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
+            <marker date="1501020540775" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1789:1813" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1828" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1855" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1878" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1879" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="2308:2401" ph="SELECT note notes" />
+            <marker date="1501020540775" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
           </folding>
         </state>
       </provider>
@@ -875,38 +853,9 @@
       </provider>
     </entry>
     <entry file="das://table:/b60f0960/1df640c5-70fd-4cec-a522-1bd482b66703/mydb.notes" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/RegistrationServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/view/PageParts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/RegistrationServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StickersServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/NotesServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/formregistration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -956,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,6 +912,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <marker date="1501020540776" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
+            <marker date="1501020540776" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/PageFilterLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/163badbf/d3da4603-a04a-4aa2-bf17-9fdc8523f53a/mydb.notes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lms/view/PageParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -976,55 +967,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#557#558#0" expanded="true" />
-            <marker date="1501001132690" expanded="true" signature="1452:1526" ph="SELECT id, l... users" />
-            <marker date="1501001132690" expanded="true" signature="2314:2367" ph="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/163badbf/d3da4603-a04a-4aa2-bf17-9fdc8523f53a/mydb.notes">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/PageFilterLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lms/servlets/StartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lms/models/Sticker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="62" column="128" lean-forward="false" selection-start-line="62" selection-start-column="128" selection-end-line="62" selection-end-column="128" />
           <folding>
-            <marker date="1501015665079" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
-            <marker date="1501015665079" expanded="true" signature="1789:1813" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1828" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1855" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1878" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="1789:1879" ph="DELETE FROM " />
-            <marker date="1501015665079" expanded="true" signature="2308:2401" ph="SELECT note notes" />
-            <marker date="1501015665079" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
+            <marker date="1501020540775" expanded="true" signature="714:772" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1408:1491" ph="INSERT INTO notes... " />
+            <marker date="1501020540775" expanded="true" signature="1789:1813" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1828" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1855" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1878" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="1789:1879" ph="DELETE FROM " />
+            <marker date="1501020540775" expanded="true" signature="2308:2401" ph="SELECT note notes" />
+            <marker date="1501020540775" expanded="true" signature="2890:2949" ph="SELECT stick... notes" />
           </folding>
         </state>
       </provider>
