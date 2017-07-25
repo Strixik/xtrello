@@ -29,10 +29,11 @@ public class ServletBoards extends HttpServlet {
 
         if (addStiker == null || addStiker.equals("")){
            response.sendRedirect("/");
-       }else {
+       }
+          else {
            sticker.setSticker_name(addStiker);
            sticker.insertStiker_name(Integer.parseInt(session.getAttribute("id").toString()), sticker.getSticker_name());
-           response.sendRedirect("/Boards");
+           response.sendRedirect("/");
        }
     }
 
@@ -41,24 +42,8 @@ public class ServletBoards extends HttpServlet {
         session.getAttribute("id");
         session.getAttribute("login");
         PrintWriter out = response.getWriter();
-        for (String x : PageParts.DelDubl(Sticker.getStickername(Integer.parseInt(session.getAttribute("id").toString())))){
-            String form1 = PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/sticker.html"));
-            form1 = form1.replace("<!-- servletInsert05 -->",x);
-            form1 = form1.replace("<!-- servletInsert06 -->",x);
-            StringBuilder stringBuilder = new StringBuilder();
-            for (String y : Sticker.getNote(Integer.parseInt(session.getAttribute("id").toString()),x)){
-                if (y == null){
-                    continue;
-                } else stringBuilder.append(PageParts.getTag("p",y,""));
-            }
-            form1 = form1.replace("<!-- servletInsert07 -->",stringBuilder);
-            out.write(form1);
-        }
+        System.out.println("servletBoards");
 
-     // out.write( session.getAttribute("id").toString() + session.getAttribute("login") + sticker.getSticker_name());
-      /*  for (String x : Sticker.getStickername(Integer.parseInt(session.getAttribute("id").toString()))){
-            out.println(PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/sticker.html")));
-        }*/
 
     }
 

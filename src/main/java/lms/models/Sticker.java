@@ -73,6 +73,7 @@ private String note;
 
         return note;
     }
+
     public static ArrayList<String> getStickername(Integer id) {
         ArrayList<String> note = new ArrayList<>();
 

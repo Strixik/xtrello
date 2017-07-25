@@ -1,5 +1,6 @@
 package lms.view;
 
+import lms.models.Sticker;
 import lms.models.User;
 
 import javax.imageio.IIOException;
@@ -57,5 +58,26 @@ public static String getPartialHtml(String filename){
 
         return stringBuilder;
     }
+    public static String OutPrint (Integer id, String form){
+        StringBuilder all_forms = new StringBuilder();
+
+
+        for (String x : DelDubl(Sticker.getStickername(id))){
+            String form1 = form;
+            form1 = form1.replace("<!-- servletInsert05 -->",x);
+            form1 = form1.replace("<!-- servletInsert06 -->",x);
+            StringBuilder stringBuilder = new StringBuilder();
+            for (String y : Sticker.getNote(id,x)){
+                if (y == null){
+                    continue;
+                } else stringBuilder.append(getTag("p",y,""));
+            }
+            form1 = form1.replace("<!-- servletInsert07 -->",stringBuilder);
+            all_forms.append(form1).append("\n");
+        }
+        return all_forms.toString();
+    }
+
+
 
 }

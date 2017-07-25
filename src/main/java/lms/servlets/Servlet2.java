@@ -52,7 +52,7 @@ public class Servlet2 extends HttpServlet {
             ServletException, IOException {
         PrintWriter out = response.getWriter();
         try {
-
+            System.out.println("servlet2");
 
 
 

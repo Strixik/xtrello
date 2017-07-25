@@ -73,20 +73,9 @@ public class Servlet extends HttpServlet {
                 response.sendRedirect("/");
                 break;
             case "/Board":
-
-                for (String x : PageParts.DelDubl(Sticker.getStickername(Integer.parseInt(session.getAttribute("id").toString())))){
-                    String form1 = PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/sticker.html"));
-                    form1 = form1.replace("<!-- servletInsert05 -->",x);
-                    form1 = form1.replace("<!-- servletInsert06 -->",x);
-                    StringBuilder stringBuilder = new StringBuilder();
-                    for (String y : Sticker.getNote(Integer.parseInt(session.getAttribute("id").toString()),x)){
-                        if (y == null){
-                            continue;
-                        } else stringBuilder.append(PageParts.getTag("p",y,""));
-                    }
-                    form1 = form1.replace("<!-- servletInsert07 -->",stringBuilder);
-                    out.write(form1);
-                }
+                String blabla = PageParts.getPartialHtml(getServletContext().getRealPath("/WEB-INF/html/sticker.html"));
+                Integer id = Integer.parseInt(session.getAttribute("id").toString());
+                out.write(PageParts.OutPrint(id,blabla));
                 break;
         }
     }
