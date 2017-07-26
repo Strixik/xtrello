@@ -5,6 +5,8 @@ import lms.view.PageParts;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
 
 /**
  * Created by Надя on 18.07.2017.
@@ -56,7 +58,16 @@ private String note;
             }
 
     }
+    public void  dellSticker(Integer id, String sticker_name) {
+            try (Connection con = DriverManager.getConnection(DB_URL);
+                 PreparedStatement st = con.prepareStatement("DELETE FROM notes WHERE sticker_name=\"" + sticker_name + "\" AND  user_id=\"" + id + "\";");){
+                 st.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
 
+
+    }
 
     public static ArrayList<String> getNote(Integer id, String sticker_name) {
         ArrayList<String> note = new ArrayList<>();
@@ -82,13 +93,14 @@ private String note;
              ResultSet rs = stmt.executeQuery("SELECT sticker_name FROM notes WHERE user_id=\"" + id + "\";");) {
             while (rs.next()) {
                 note.add(rs.getString(1));
-                System.out.println(rs.getString(1));
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        ArrayList<String> result = new ArrayList<>(new HashSet<>(note));
+        Collections.sort(note);
 
-        return note;
+        return result;
     }
 
     @Override

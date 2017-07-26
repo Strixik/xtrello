@@ -7,8 +7,8 @@
 
 
 body {
-    width: 100%;
-    height: 100%;
+   /* width: 100%;*/
+ /*   height: 100%;*/
     background: #3e2840;}
 input{
     float: right;
@@ -24,6 +24,7 @@ input{
     margin-left: 10px;
 
 }
+
 h3 {
     font-family: Chiller;
     font-size: 4em;
@@ -32,23 +33,28 @@ h3 {
     margin-bottom: 10px;
 }
 header{
-    width: 100%;
+    width: 90%;
 }
 .telo {
     width: 100%;
     float: left;
-    height: auto;
+
 }
-div {
+/*div {
     float: left;
     margin-right: 20px;
     height: auto;
 
 
-}
-form {
+}*/
+form.form {
     float: left;
 }
+form.form1 {
+    float: right;
+}
+
+
 h2  {
     font-family: Chiller;
     font-size: 3em;
@@ -69,12 +75,14 @@ textarea {
     border-radius: 15px;
 }
 .info{
-    float: left;
+    float: right;
     background-color: #333333;
     border-radius: 20px;
-    border: 2px dotted grey;
+    border: 2px solid grey;
+    border-bottom-style: hidden;
     margin-bottom: 20px;
     width: 200px;
+    margin-right: 20px;
 
 }
 
@@ -91,7 +99,7 @@ h1{
 
 .img1 {
     position: fixed;
-    top: -10px;
+    top: 0px;
     right: 0px;
 
 
@@ -110,7 +118,7 @@ h4 {
     text-align: center;
     color: red;
 }
-A {
+A.exit {
     position: fixed;
     top: 0px;
     right: 0px;
@@ -124,9 +132,27 @@ A {
     background-color: black;
 
 }
-A:hover {
+button{
+    float: right;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border-bottom-style: hidden;
+    color: white;
+    background-color: #333333;
+    margin: 5px;
+}
+
+
+A.exit:hover {
     color: red; /* Цвет ссылки */
     background-color: black;
+    transition: 1.5s;
+}
+button:hover {
+    background-color: black;
+    color: red; /* Цвет ссылки */
     transition: 1.5s;
 }
 input:hover {

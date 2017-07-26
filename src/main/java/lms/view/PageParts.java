@@ -19,10 +19,6 @@ import java.util.HashSet;
 /**Creates static parts for HTML page
  */
 public class PageParts {
-static String faild = "<h4>Login or Password wrong!</h4>";
-
-
-
 
 public static String getTag(String tag, StringBuilder setText, String attributes){
     attributes = attributes.length() > 0 ? " " + attributes : "";
@@ -46,11 +42,11 @@ public static String getPartialHtml(String filename){
     }
     return strb.toString();
 }
-    public static ArrayList<String> DelDubl(ArrayList<String> array){
-        ArrayList<String> result = new ArrayList<String>(new HashSet<String>(array));
+   /* public static ArrayList<String> DelDubl(ArrayList<String> array){
+        ArrayList<String> result = new ArrayList<>(new HashSet<>(array));
         Collections.sort(result);
         return result;
-    }
+    }*/
     public static StringBuilder Note(ArrayList<String> stringArrayList){
         StringBuilder stringBuilder = new StringBuilder();
         for (String x :stringArrayList)
@@ -62,7 +58,7 @@ public static String getPartialHtml(String filename){
         StringBuilder all_forms = new StringBuilder();
 
 
-        for (String x : DelDubl(Sticker.getStickername(id))){
+        for (String x : Sticker.getStickername(id)){
             String form1 = form;
             form1 = form1.replace("<!-- servletInsert05 -->",x);
             form1 = form1.replace("<!-- servletInsert06 -->",x);
